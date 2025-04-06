@@ -1,0 +1,38 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos de ambiente
+.env
+.env.example
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de cache
+*.cache
+/cache/
+
+# Arquivos de sessão
+/sessions/
+
+# Arquivos de upload
+/uploads/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de configuração local
+config/local.php 
