@@ -1,11 +1,11 @@
 {
-    "name": "sistema-agendamento-medico",
+    "name": "app/sistema-agendamento-medico",
     "description": "Sistema de agendamento de consultas médicas",
     "type": "project",
     "require": {
         "php": ">=8.1",
         "bramus/router": "^1.6",
-        "mercadopago/dx-php": "^2.5",
+        "mercadopago/dx-php": "^2.6",
         "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
@@ -13,4 +13,4 @@
             "App\\": "src/"
         }
     }
-} 
+}

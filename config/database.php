@@ -2,9 +2,9 @@
 
 return [
     'host' => 'localhost',
-    'port' => '3306',
-    'database' => 'agendamento_medico',
-    'username' => 'root',
-    'password' => '', // Senha padrão do XAMPP é vazia
-    'charset' => 'utf8mb4'
-]; 
+    'port' => '5432',
+    'database' => 'app_db',
+    'username' => 'app_user',
+    'password' => 'app_password',
+    'charset' => 'utf8'
+];
